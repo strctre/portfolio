@@ -21,9 +21,10 @@ Map 1
 
 [![](thumbnails/density_hk.png)](https://strctre.github.io/portfolio/fullsize/density_hk.pdf){target="_blank"}
 
-As a context for the subsequent maps regarding accessibility in Hong Kong, this map gives one an idea of the public housing, schools and population density landscape in the city and how its accounts for the observations in later maps. This map also serves to demonstrate the following skills:
+As a context for the subsequent maps regarding accessibility in Hong Kong, this map gives one an idea of the public housing, schools and population density landscape in the city and how they account for the observations in later maps. This map also serves to demonstrate the following skills:
 
 * Displaying multiple vector layers on the same map 
+* Aggregating point data to a layer of polygons
 * Calculating and displaying relationships among point and polygon layers based on distance
 
 ## Access to transit stops
@@ -44,7 +45,7 @@ These maps demonstrate:
 
 Map 4
 
-[![](thumbnails/pedestrian_access_contours.png)](https://strctre.github.io/portfolio/fullsize/pedestrian_access_contours.pdf){target="_blank"}
+[![](thumbnails/pedestrian_access_ibility_time_raster.png)](https://strctre.github.io/portfolio/fullsize/pedestrian_access_raster.pdf){target="_blank"}
 
 This map demonstrates:
 
