@@ -10,25 +10,9 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Introduction
-
-This portfolio is a collection of the skills developed in VIS 2128 taught by Professor Carole Voulgaris. 
-
-
-
-Your portfolio should demonstrate each of the following skills (not all of which are demonstrated in this example):
-
-* Displaying multiple vector layers on the same map
-* Calculating and displaying relationships among point and polygon layers based on distance
-* Aggregating point data to a layer of polygons
-* Calculating and displaying accessibility, based on travel time
-* Converting between raster layers and vector layers
-* Displaying raster data on a map
-* Georeferencing a raster image
-* Displaying data on an interactive map
-
 # Lessons through maps and map making
 
+This portfolio is a collection of the skills developed in VIS 2128 taught by Professor Carole Voulgaris. 
 
 ## Map 1: On accessibility in Hong Kong
 
@@ -39,7 +23,7 @@ As a context for the subsequent maps regarding accessibility in Hong Kong, this 
  * Calculating and displaying relationships among point and polygon layers based on distance
 
 ### Maps 2 & 3: Access to transit stops
-[![](thumbnails/accessibility_time.png)](https://strctre.github.io/portfolio/fullsize/accessibility_timee.pdf){target="_blank"}
+[![](thumbnails/accessibility_time.png)](https://strctre.github.io/portfolio/fullsize/accessibility_time.pdf){target="_blank"}
 
 [![](thumbnails/accessibility_score.png)](https://strctre.github.io/portfolio/fullsize/accessibility_score.pdf){target="_blank"}
 
@@ -91,3 +75,14 @@ This map demonstrates:
  
  * Geo-referencing a raster image
 
+## On use of social media in green spaces in Jiaxing
+### Map 9
+
+[![](thumbnails/weibo_within_greenspace.png)](https://strctre.github.io/portfolio/fullsize/weibo_within_greenspace.pdf){target="_blank"}
+
+This map, as others, are part of a group effort, in which we all tried to ensure the codes and data would run. The primary author of this particular map is my group mate Yuanzhao Wang. Yuanzhao, Marina Freitas and I all worked on all the maps (and their codes) produced for this assignment as we attempt to collate our maps and knit.
+The full assignment can here accessed [here](https://strctre.github.io/portfolio/fullsize/Assignment_3_21.html)
+
+This map demonstrates:
+
+* Aggregating point data to a layer of polygons
