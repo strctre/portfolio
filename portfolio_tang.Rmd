@@ -80,13 +80,14 @@ This interactive map demonstrates the following skills:
 [![](thumbnails/assignment_6_tang.png)](https://strctre.github.io/portfolio/fullsize/assignment_6_tang.html){target="_blank"}
 
 
-## On Reykjavik, 1906 and today
+## On Reykjavik, 1902 and today
+### Map 8: Service infrastructure in Reykjavik today with reference to the city in 1902
 
-[![](thumbnails/service_infrastructure_lei.png)]
+[![](thumbnails/service_infrastructure_lei.png)](https://strctre.github.io/portfolio/fullsize/service_infrastructure_lei.pdf){target="_blank"}
 
 This map shows the service infrastructure in Reykjavík today as the top layer. The historical 1902 map is the second layer at 50% transparency. It overlays the contemporary map. In this order, the service infrastructure which has sprawled out of old Reykjavík, is denoted by a circle. The various types are differentiated by the color of the circle’s fill. We observe “playgrounds” are the largest group and is distributed across old and new Reykjavík, shedding light onto the possibly playful daily life of Icelandic children and their society’s priority for them.
 
 This map demonstrates:
  
- * * Georeferencing a raster image
+ * Geo-referencing a raster image
 
