@@ -1,0 +1,76 @@
+---
+title: "Example Portfolio"
+author: "Carole Voulgaris"
+date: "10/12/2021"
+output: 
+  rmdformats::downcute
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+This portfolio is a collection of the skills developed in VIS 2128. 
+
+This is an example of a portfolio that someone might assemble to demonstrate the skills they have developed in VIS 2128. I have created this page using RMarkdown. There are fancier tools out there for creating and hosting webpages, and you are welcome to use any of those if you like. The advantage of this approach is that you can create your webpage directly from RStudio.
+
+This example uses the `downcute` theme, which is available if you install the `rmdformats` package. The themes in the `rmdformats` have a table of contents that only includes level-one headings.
+
+Other themes in the `rmdformats` package are `material`, `html_clean`, `html_docco`, `readthedown`, and `robobook`.  
+
+Your portfolio should demonstrate each of the following skills (not all of which are demonstrated in this example):
+
+* Displaying multiple vector layers on the same map
+* Calculating and displaying relationships among point and polygon layers based on distance
+* Aggregating point data to a layer of polygons
+* Calculating and displaying accessibility, based on travel time
+* Converting between raster layers and vector layers
+* Displaying raster data on a map
+* Georeferencing a raster image
+* Displaying data on an interactive map
+
+# Lessons through maps
+
+
+## On accessibility in Hong Kong SAR
+
+[![](thumbnails/density_hk.png)](https://strctre.github.io/portfolio/fullsize/assignment_6_tang.html){target="_blank"}
+As a context for the subsequent maps regarding accessibility in Hong Kong SAR, this map gives one an idea of the public housing, schools and population density landscape in the city and how its accounts for the observations in later maps. This map also serves to demonstrate the following skills:
+ 1. Displaying multiple vector layers on the same map 
+ 2. Calculating and displaying relationships among point and polygon layers based on distance
+
+## Interactive Map
+This interactive map demonstrates the following skills: 
+
+* Displaying data on an interactive map
+
+[![](portfolio/thumbnails/Boston_interactive.png)](https://strctre.github.io/portfolio/fullsize/assignment_6_tang.html){target="_blank"}
+
+## Clockboard Map
+This map demonstrates the following skills:
+
+* Aggregating point data to a layer of polygons
+
+[![](thumbnails/clockboard.jpg)](https://c-voulgaris.github.io/portfolio_examples/fullsize/clockboard.pdf){target="_blank"}
+
+# Maps of San Luis Obispo
+Here are two maps of San Luis Obispo, California. I might include some text here as well.
+
+## Isochrones
+This map shows isochrones based on transit travel times to the nearest school. It demonstrates the following skills:
+
+* Displaying multiple vector layers on the same map
+* Calculating and displaying accessibility, based on travel time
+
+[![](thumbnails/SLO_isochrone.png)](https://c-voulgaris.github.io/portfolio_examples/fullsize/SLO_schools.pdf){target="_blank"}
+
+## Accessibility
+This map shows accessibility based on a distance-decay function of the walking time to the nearest transit stop. It demonstrates the following skills:
+
+* Displaying multiple vector layers on the same map
+* Calculating and displaying accessibility, based on travel time
+* Displaying raster data on a map
+
+[![](thumbnails/SLO_raster.png)](https://c-voulgaris.github.io/portfolio_examples/fullsize/SLO_transit.pdf){target="_blank"}
