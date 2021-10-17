@@ -1,6 +1,6 @@
 ---
-title: "Example Portfolio"
-author: "Carole Voulgaris"
+title: "Portfolio"
+author: "Jialei Tang"
 date: "10/12/2021"
 output: 
   rmdformats::downcute
@@ -12,13 +12,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Introduction
 
-This portfolio is a collection of the skills developed in VIS 2128. 
+This portfolio is a collection of the skills developed in VIS 2128 taught by Professor Carole Voulgaris. 
 
-This is an example of a portfolio that someone might assemble to demonstrate the skills they have developed in VIS 2128. I have created this page using RMarkdown. There are fancier tools out there for creating and hosting webpages, and you are welcome to use any of those if you like. The advantage of this approach is that you can create your webpage directly from RStudio.
 
-This example uses the `downcute` theme, which is available if you install the `rmdformats` package. The themes in the `rmdformats` have a table of contents that only includes level-one headings.
-
-Other themes in the `rmdformats` package are `material`, `html_clean`, `html_docco`, `readthedown`, and `robobook`.  
 
 Your portfolio should demonstrate each of the following skills (not all of which are demonstrated in this example):
 
@@ -31,46 +27,66 @@ Your portfolio should demonstrate each of the following skills (not all of which
 * Georeferencing a raster image
 * Displaying data on an interactive map
 
-# Lessons through maps
+# Lessons through maps and map making
 
 
-## On accessibility in Hong Kong SAR
+## Map 1: On accessibility in Hong Kong
 
-[![](thumbnails/density_hk.png)](https://strctre.github.io/portfolio/fullsize/assignment_6_tang.html){target="_blank"}
-As a context for the subsequent maps regarding accessibility in Hong Kong SAR, this map gives one an idea of the public housing, schools and population density landscape in the city and how its accounts for the observations in later maps. This map also serves to demonstrate the following skills:
- 1. Displaying multiple vector layers on the same map 
- 2. Calculating and displaying relationships among point and polygon layers based on distance
+[![](thumbnails/density_hk.png)](https://strctre.github.io/portfolio/fullsize/density_hk.pdf){target="_blank"}
 
-## Interactive Map
+As a context for the subsequent maps regarding accessibility in Hong Kong, this map gives one an idea of the public housing, schools and population density landscape in the city and how its accounts for the observations in later maps. This map also serves to demonstrate the following skills:
+ * Displaying multiple vector layers on the same map 
+ * Calculating and displaying relationships among point and polygon layers based on distance
+
+### Maps 2 & 3: Access to transit stops
+[![](thumbnails/accessibility_time.png)](https://strctre.github.io/portfolio/fullsize/accessibility_timee.pdf){target="_blank"}
+
+[![](thumbnails/accessibility_score.png)](https://strctre.github.io/portfolio/fullsize/accessibility_score.pdf){target="_blank"}
+
+These map demonstrate:
+ * Calculating and displaying accessibility, based on travel time
+ 
+### Map 4: Pedestrian access to transit tops (Raster layer)
+[![](thumbnails/pedestrian_access_contours.png)](https://strctre.github.io/portfolio/fullsize/pedestrian_access_contours.pdf){target="_blank"}
+
+This map demonstrates:
+ * Displaying raster data on a map
+ * Calculating and displaying accessibility, based on travel time
+
+### Map 5: Pedestrian access to transit tops (Vector layer)
+[![](thumbnails/pedestrian_access_contours.png)](https://strctre.github.io/portfolio/fullsize/pedestrian_access_contours.pdf){target="_blank"}
+
+This map demonstrates:
+ * Converting between raster layers and vector layers
+ * Calculating and displaying accessibility, based on travel time
+
+## On ridership in Cambridge
+
+### Map 6: Ridership at different time periods
+[![](thumbnails/ridership_cambridge.png)](https://strctre.github.io/portfolio/fullsize/ridership_cambridge.pdf){target="_blank"}
+
+This was the first assignment that introduced map making in R.
+The skills demonstrated are 
+ * Aggregating point data to a layer of polygons
+ 
+Unique to our group, we needed to geo-reference the data set for ridership in R by joining the subway line shapefile to the ridership csv file.
+
+## On access to hospitals for persons with a disability in Suffolk County, MA
+### Map 7: Interactive map on access to hospitals for persons with a disability in Suffolk County, MA
 This interactive map demonstrates the following skills: 
 
 * Displaying data on an interactive map
 
-[![](portfolio/thumbnails/Boston_interactive.png)](https://strctre.github.io/portfolio/fullsize/assignment_6_tang.html){target="_blank"}
+[![](thumbnails/assignment_6_tang.png)](https://strctre.github.io/portfolio/fullsize/assignment_6_tang.html){target="_blank"}
 
-## Clockboard Map
-This map demonstrates the following skills:
 
-* Aggregating point data to a layer of polygons
+## On Reykjavik, 1906 and today
 
-[![](thumbnails/clockboard.jpg)](https://c-voulgaris.github.io/portfolio_examples/fullsize/clockboard.pdf){target="_blank"}
+[![](thumbnails/service_infrastructure_lei.png)]
 
-# Maps of San Luis Obispo
-Here are two maps of San Luis Obispo, California. I might include some text here as well.
+This map shows the service infrastructure in Reykjavík today as the top layer. The historical 1902 map is the second layer at 50% transparency. It overlays the contemporary map. In this order, the service infrastructure which has sprawled out of old Reykjavík, is denoted by a circle. The various types are differentiated by the color of the circle’s fill. We observe “playgrounds” are the largest group and is distributed across old and new Reykjavík, shedding light onto the possibly playful daily life of Icelandic children and their society’s priority for them.
 
-## Isochrones
-This map shows isochrones based on transit travel times to the nearest school. It demonstrates the following skills:
+This map demonstrates:
+ 
+ * * Georeferencing a raster image
 
-* Displaying multiple vector layers on the same map
-* Calculating and displaying accessibility, based on travel time
-
-[![](thumbnails/SLO_isochrone.png)](https://c-voulgaris.github.io/portfolio_examples/fullsize/SLO_schools.pdf){target="_blank"}
-
-## Accessibility
-This map shows accessibility based on a distance-decay function of the walking time to the nearest transit stop. It demonstrates the following skills:
-
-* Displaying multiple vector layers on the same map
-* Calculating and displaying accessibility, based on travel time
-* Displaying raster data on a map
-
-[![](thumbnails/SLO_raster.png)](https://c-voulgaris.github.io/portfolio_examples/fullsize/SLO_transit.pdf){target="_blank"}
