@@ -58,7 +58,7 @@ Map 5
 
 [![](thumbnails/pedestrian_access_contours.png)](https://strctre.github.io/portfolio/fullsize/pedestrian_access_contours.pdf){target="_blank"}
 
-This map demonstrates:
+This contour map demonstrates:
 
 * Converting between raster layers and vector layers
 * Calculating and displaying accessibility, based on travel time
