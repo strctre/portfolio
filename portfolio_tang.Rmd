@@ -45,7 +45,7 @@ These maps demonstrate:
 
 Map 4
 
-[![](thumbnails/pedestrian_access_ibility_time_raster.png)](https://strctre.github.io/portfolio/fullsize/pedestrian_access_raster.pdf){target="_blank"}
+[![](thumbnails/pedestrian_access_raster.png)](https://strctre.github.io/portfolio/fullsize/pedestrian_access_raster.pdf){target="_blank"}
 
 This map demonstrates:
 
