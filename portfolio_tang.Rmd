@@ -13,50 +13,72 @@ knitr::opts_chunk$set(echo = TRUE)
 # Lessons through maps and map making
 
 This portfolio is a collection of the skills developed in VIS 2128 taught by Professor Carole Voulgaris. 
+The order of these maps are not chronological, instead, they follow a vein that examines what a city provides in terms of access to where an individual interacts with the digital sphere in a city.
 
-## Map 1: On accessibility in Hong Kong
+## On accessibility in Hong Kong
+
+Map 1
 
 [![](thumbnails/density_hk.png)](https://strctre.github.io/portfolio/fullsize/density_hk.pdf){target="_blank"}
 
 As a context for the subsequent maps regarding accessibility in Hong Kong, this map gives one an idea of the public housing, schools and population density landscape in the city and how its accounts for the observations in later maps. This map also serves to demonstrate the following skills:
- * Displaying multiple vector layers on the same map 
- * Calculating and displaying relationships among point and polygon layers based on distance
 
-### Maps 2 & 3: Access to transit stops
+* Displaying multiple vector layers on the same map 
+* Calculating and displaying relationships among point and polygon layers based on distance
+
+## Access to transit stops
+
+Map 2
+
 [![](thumbnails/accessibility_time.png)](https://strctre.github.io/portfolio/fullsize/accessibility_time.pdf){target="_blank"}
+
+Map 3
 
 [![](thumbnails/accessibility_score.png)](https://strctre.github.io/portfolio/fullsize/accessibility_score.pdf){target="_blank"}
 
-These map demonstrate:
- * Calculating and displaying accessibility, based on travel time
+These maps demonstrate:
+
+* Calculating and displaying accessibility, based on travel time
  
-### Map 4: Pedestrian access to transit tops (Raster layer)
+## Pedestrian access to transit tops (Raster layer)
+
+Map 4
+
 [![](thumbnails/pedestrian_access_contours.png)](https://strctre.github.io/portfolio/fullsize/pedestrian_access_contours.pdf){target="_blank"}
 
 This map demonstrates:
- * Displaying raster data on a map
- * Calculating and displaying accessibility, based on travel time
 
-### Map 5: Pedestrian access to transit tops (Vector layer)
+* Displaying raster data on a map
+* Calculating and displaying accessibility, based on travel time
+
+## Pedestrian access to transit tops (Vector layer)
+
+Map 5
+
 [![](thumbnails/pedestrian_access_contours.png)](https://strctre.github.io/portfolio/fullsize/pedestrian_access_contours.pdf){target="_blank"}
 
 This map demonstrates:
- * Converting between raster layers and vector layers
- * Calculating and displaying accessibility, based on travel time
+
+* Converting between raster layers and vector layers
+* Calculating and displaying accessibility, based on travel time
 
 ## On ridership in Cambridge
 
-### Map 6: Ridership at different time periods
+Map 6
+
 [![](thumbnails/ridership_cambridge.png)](https://strctre.github.io/portfolio/fullsize/ridership_cambridge.pdf){target="_blank"}
 
 This was the first assignment that introduced map making in R.
-The skills demonstrated are 
- * Aggregating point data to a layer of polygons
+The skills demonstrated are:
+
+* Aggregating point data to a layer of polygons
  
 Unique to our group, we needed to geo-reference the data set for ridership in R by joining the subway line shapefile to the ridership csv file.
 
 ## On access to hospitals for persons with a disability in Suffolk County, MA
-### Map 7: Interactive map on access to hospitals for persons with a disability in Suffolk County, MA
+
+Map 7
+
 This interactive map demonstrates the following skills: 
 
 * Displaying data on an interactive map
@@ -65,7 +87,8 @@ This interactive map demonstrates the following skills:
 
 
 ## On Reykjavik, 1902 and today
-### Map 8: Service infrastructure in Reykjavik today with reference to the city in 1902
+
+Map 8
 
 [![](thumbnails/service_infrastructure_lei.png)](https://strctre.github.io/portfolio/fullsize/service_infrastructure_lei.pdf){target="_blank"}
 
@@ -73,10 +96,11 @@ This map shows the service infrastructure in Reykjavík today as the top layer. 
 
 This map demonstrates:
  
- * Geo-referencing a raster image
+* Geo-referencing a raster image
 
 ## On use of social media in green spaces in Jiaxing
-### Map 9
+
+Map 9
 
 [![](thumbnails/weibo_within_greenspace.png)](https://strctre.github.io/portfolio/fullsize/weibo_within_greenspace.pdf){target="_blank"}
 
